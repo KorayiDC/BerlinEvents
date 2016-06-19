@@ -15,6 +15,8 @@ class MasterViewController: UITableViewController {
         
         let alert = UIAlertController(title: "Version 1.2", message: "Mit dieser App, sehen sie alle aktuellen Veranstaltungen in Berlin und Brandenburg. Konsole: \(objects)", preferredStyle: UIAlertControllerStyle.Alert)
         
+        // print json ist nur auf einem gerät verfügbar und nicht im ios simulator
+        
         alert.addAction(UIAlertAction(title: "Made by Koray Ece", style: UIAlertActionStyle.Default, handler: nil))
         
         self.presentViewController(alert, animated: true, completion: nil)
