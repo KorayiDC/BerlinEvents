@@ -13,7 +13,7 @@ class MasterViewController: UITableViewController {
     @IBAction func aboutPressed(sender: AnyObject) {
         
         
-        let alert = UIAlertController(title: "Version 1.2", message: "Mit dieser App, sehen sie alle aktuellen Veranstaltungen in Berlin und Brandenburg.", preferredStyle: UIAlertControllerStyle.Alert)
+        let alert = UIAlertController(title: "Version 1.2", message: "Mit dieser App, sehen sie alle aktuellen Veranstaltungen in Berlin und Brandenburg. Konsole: \(objects)", preferredStyle: UIAlertControllerStyle.Alert)
         
         alert.addAction(UIAlertAction(title: "Made by Koray Ece", style: UIAlertActionStyle.Default, handler: nil))
         
