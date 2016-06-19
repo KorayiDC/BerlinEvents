@@ -1,7 +1,7 @@
 # BerlinEvents
 Swift Informatik Projekt
 
-![alt tag](http://i.imgur.com/tMN48qp.png)
+![alt tag](http://i.imgur.com/eOkOxzb.png?1)
 
 
 Diese App zeigt alle aktuellen Veranstaltungen in Berlin u. Brandenburg an.
