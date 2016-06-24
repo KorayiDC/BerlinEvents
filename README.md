@@ -1,7 +1,7 @@
 # BerlinEvents
 
 
-![alt tag](http://i.imgur.com/eOkOxzb.png?1)
+![alt tag](http://i.imgur.com/Ht37XNx.png)
 
 
 Diese App zeigt alle aktuellen Veranstaltungen in Berlin u. Brandenburg an.
