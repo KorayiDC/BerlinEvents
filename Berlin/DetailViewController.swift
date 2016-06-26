@@ -26,7 +26,7 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        guard detailItem != nil else { return }
+      /*  guard detailItem != nil else { return }
         
         if let body = detailItem["body"] {
             var html = "<html>"
@@ -41,5 +41,19 @@ class DetailViewController: UIViewController {
             webView.loadHTMLString(html, baseURL: nil)
         }
         
+ 
+        let instance = MasterViewController()
+        
+        */
+        
+        
+        let NewUrl = NSURL(string: "https://www.google.de/maps/place/Berlin/")!
+        let req = NSURLRequest(URL: NewUrl)
+        self.webView.loadRequest(req)
+        print(NewUrl)
+        
+        self.title = "Berlin"
+        
+    
     }
 }
