@@ -1,7 +1,7 @@
 # BerlinEvents
 
 
-![alt tag](http://i.imgur.com/eOkOxzb.png?1)
+![alt tag](http://i.imgur.com/soRtjgF.png)
 
 
 Diese App zeigt alle aktuellen Veranstaltungen in Berlin u. Brandenburg an.
@@ -13,4 +13,4 @@ Die Datensätze werden von [Daten.Berlin.de](daten.berlin.de) ausgelesen und in 
 Die Daten sind im JSON Format angegeben und werden per [SwiftyJson](github.com) geparsed.
 :bear:
 
-![alt tag](http://i.imgur.com/JwW58Sb.png)
+![alt tag](http://i.imgur.com/DZ3IjfE.png)
